@@ -49,6 +49,8 @@ AC_CONFIG_FILES([
     tests/Makefile
     docs/Makefile
     docs/version.xml
+    win32/Makefile
+    win32/config.h.win32
 ])
 
 AC_OUTPUT

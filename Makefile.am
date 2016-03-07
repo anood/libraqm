@@ -2,7 +2,7 @@ NULL =
 
 ACLOCAL_AMFLAGS = -I m4
 
-SUBDIRS = src docs tests
+SUBDIRS = src docs tests win32
 
 pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = @PACKAGE@.pc
